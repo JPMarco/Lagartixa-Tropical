@@ -1,0 +1,44 @@
+@charset "UTF-8";
+main {
+    text-align: center;
+}
+body{
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: radial-gradient(circle, yellow, red);
+}
+a {
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: chartreuse;
+    transition-duration: 0.5s;
+    margin: 10px;
+}
+h1 {
+    text-align: center;
+}
+.flagra {
+    background-image: linear-gradient(to bottom, skyblue, transparent);
+    padding: 100px;
+    margin: -10px;
+}
+.left {
+    color: blue;
+}
+img {
+    margin: auto;
+    max-width: 600px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+}
+#ganan {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, rgb(0, 0, 219), rgb(83, 0, 151), rgb(0, 0, 219));
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+}

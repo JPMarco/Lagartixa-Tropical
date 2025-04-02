@@ -1,0 +1,87 @@
+@charset "UTF-8";
+main {
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(90deg, purple 20%, blue, darkblue);
+}
+h1 {
+    color: yellow;
+    text-align: center;
+    text-shadow: 3px 3px 10px yellow;
+}
+h2 {
+    color: white;
+}
+p {
+    color: white;
+}
+a {
+    color: yellow;
+    text-shadow: 3px 3px 10px yellow;
+    text-decoration: none;
+}
+img {
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+}
+.mario {
+    color: red;
+    text-shadow: 5px 5px 5px red;
+}
+.messildo {
+    color: rgb(0, 174, 255);
+    text-shadow: 5px 5px 5px rgb(0, 174, 255);
+}
+.peach {
+    color: rgb(255, 0, 140);
+    text-shadow: 5px 5px 5px rgb(255, 0, 140);
+}
+.manualdomundo {
+    color: blue;
+    text-shadow: 3px 3px 5px yellow;
+}
+.manualdomundo:hover {
+    color: purple;
+    text-shadow: 3px 3px 5px purple;
+    transition-duration: 0.3s;
+}
+.segundosite:hover {
+    color: orangered;
+    text-shadow: 3px 3px 5px orangered;
+    transition-duration: 0.3s;
+}
+.interesse {
+    text-align: center;
+}
+.youtube {
+    color: red;
+    text-shadow: 3px 3px 5px red;
+}
+.youtube:hover{
+    color: darkred;
+    text-shadow: 3px 3px 5px darkred;
+    transition-duration: 0.3s;
+}
+.dormindo {
+    display: block;
+    width: 15%;
+    margin: auto;
+}
+.android {
+    color: rgb(0, 255, 34);
+    text-shadow: 3px 3px 5px rgb(0, 255, 34);
+}
+.projetoandroid {
+    color: rgb(0, 255, 34);
+    transition-duration: 0.5s;
+}
+.projetoandroid:hover {
+    background-color: rgb(4, 73, 4);
+    transition-duration: 0.5s;
+}
+#sem-decoração {
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px white;    
+}
