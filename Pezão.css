@@ -6,6 +6,7 @@ body{
     text-indent: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-image: radial-gradient(circle, yellow, red);
+    font-weight: bold;
 }
 a {
     text-decoration: none;
