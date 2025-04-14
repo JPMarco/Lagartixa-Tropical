@@ -30,6 +30,18 @@ a {
     text-shadow: 3px 3px 10px yellow;
     text-decoration: none;
 }
+#linkscabeçalho {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px yellow;
+    font-size: 1.2em;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+#linkscabeçalho:hover {
+    color: orange;
+    text-shadow: 3px 3px 5px orange;
+    transition-duration: 0.3s;
+}
 img {
     border-radius: 10px;
     margin: auto;
