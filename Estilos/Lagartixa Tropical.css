@@ -1,11 +1,13 @@
 @charset "UTF-8";
-main {
-    text-align: center;
-}
 body{
     background-image: linear-gradient(90deg, purple 20%, blue, darkblue);
     min-width: 320;
     background-attachment: fixed;
+    background-size: cover;
+}
+main {
+    text-align: center;
+    position: relative;
 }
 header {
     background-image: linear-gradient(180deg, rgb(162, 6, 235) 20%, rgba(59, 0, 136, 0.555));
